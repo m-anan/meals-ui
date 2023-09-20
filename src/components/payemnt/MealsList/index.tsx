@@ -20,9 +20,7 @@ const MealsList: React.FC<MealsListProps> = ({
       {meals.map((meal) => (
         <label
           key={meal.id}
-          className={`relative block peer-checked:ring-green-500 peer-checked:ring-2 border-b peer-checked:border-none ${
-            checkBox ? "cursor-pointer" : ""
-          }`}
+          className={`relative block   ${checkBox ? "cursor-pointer" : ""}`}
         >
           {checkBox && (
             <input
@@ -39,7 +37,7 @@ const MealsList: React.FC<MealsListProps> = ({
               className="absolute right-2 bottom-6 xs:hidden peer"
             />
           )}
-          <div className="flex  justify-between  peer-checked:ring-text-blue peer-checked:ring-2 rounded-xl p-3">
+          <div className="flex  justify-between peer-checked:bg-text-bluesecondary/5 peer-checked:ring-text-blue peer-checked:ring-2 rounded-xl p-3">
             <div className="flex xs:flex-wrap gap-3 items-center ">
               <img className="w-20 rounded-md" src={meal.image} />
               <div>
