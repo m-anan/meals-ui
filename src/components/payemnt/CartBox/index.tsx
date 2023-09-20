@@ -9,8 +9,20 @@ interface CartBoxProps {
 }
 const CartBox: React.FC<CartBoxProps> = ({ restaurant }) => {
   const [meals] = useState<Meal[]>([
-    { id: 31, name: "soup", image: "/nou.jpg", price: 20 },
-    { id: 123, name: "cake", image: "/nou.jpg", price: 15 },
+    {
+      id: 31,
+      name: "soup",
+      image:
+        "https://raw.githubusercontent.com/m-anan/meals-ui/main/public/nou.jpg",
+      price: 20,
+    },
+    {
+      id: 123,
+      name: "cake",
+      image:
+        "https://raw.githubusercontent.com/m-anan/meals-ui/main/public/nou.jpg",
+      price: 15,
+    },
   ]);
   const { data, setData } = useContext(CartContext);
   useEffect(() => {
