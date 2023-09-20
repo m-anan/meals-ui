@@ -29,7 +29,7 @@ const CartBox: React.FC<CartBoxProps> = ({ restaurant }) => {
           className="w-full object-cover object-center overflow-hidden max-h-48"
         />
       </div>
-      <div className="flex flex-col gap-2 items-center py-4 border-b text-center">
+      <div className="flex flex-col gap-2 items-center p-4 border-b text-center">
         <span className="flex gap-4 items-center">
           {" "}
           <h2 className="font-bold">{restaurant.name}</h2>
