@@ -9,43 +9,30 @@ Getting Started
 To get started, follow these steps:
 
 Clone the repository:
-
-sh
-Copy code
 git clone <repository-url>
+
 Install dependencies:
-
-sh
-Copy code
 npm install
-Start the development server:
 
-sh
-Copy code
+Start the development server:
 npm run dev
 The application will be available at http://localhost:3000.
 
 Building for Production
 To build the application for production, run the following command:
-
-sh
-Copy code
 npm run build
 This command will generate a production-ready build of the application.
 
-Linting
+Linting:
 To lint the code using ESLint, you can run the following command:
-
-sh
-Copy code
 npm run lint
-Preview
-To preview the production build, you can use the following command:
 
-sh
-Copy code
+Preview:
+To preview the production build, you can use the following command:
 npm run preview
-Dependencies
+
+
+Dependencies:
 React
 React DOM
 React Flaticons
