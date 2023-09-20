@@ -1,5 +1,5 @@
 Meals Frontend
-This is the frontend application for the Meals project. It allows users to browse and order meals from different categories.
+This is the frontend application for the Meals project, built with React and Vite. It allows users to browse and order meals from different categories.
 
 Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -10,34 +10,25 @@ To get started, follow these steps:
 
 Clone the repository:
 git clone <repository-url>
-
+Navigate to the project directory:
+cd meals-frontend
 Install dependencies:
 npm install
-
 Start the development server:
 npm run dev
 The application will be available at http://localhost:3000.
 
-Building for Production
-To build the application for production, run the following command:
-npm run build
-This command will generate a production-ready build of the application.
-
-Linting:
-To lint the code using ESLint, you can run the following command:
-npm run lint
-
-Preview:
-To preview the production build, you can use the following command:
-npm run preview
-
-
-Dependencies:
+Available Scripts:
+dev: Start the development server with Vite.
+build: Build the project for production using TypeScript and Vite.
+lint: Lint the code using ESLint with TypeScript support.
+preview: Preview the production build.
+Dependencies
 React
 React DOM
 React Flaticons
 UIcons
-Dev Dependencies
+Development Dependencies
 @types/react
 @types/react-dom
 @typescript-eslint/eslint-plugin
@@ -51,4 +42,3 @@ postcss
 tailwindcss
 typescript
 vite
-Feel free to add more details and sections to the README as needed for your project. This is a basic template to get you started.
